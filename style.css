@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-top: 0%;
+
+}
+body{
+	font-family: sans-serif;
+	margin: 0%;
+	padding: 0%;
+}
+.photo{
+	background: url("images/bg.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.new_bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	width: 100%;
+	height: 70px;
+	background-color: black;
+    border-bottom: dashed orange;
+
+}
+.logo{
+	color: white;
+	margin-right: 0px;
+
+}
+.logo span{
+	color: orange;
+}
+.new_bar ul{
+	list-style: none;
+	display: flex;
+	
+	
+	
+	
+}
+.new_bar ul li{
+	padding: 20px 30px;
+	position: relative;
+	margin-left: 0%;
+	
+}
+.new_bar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: orange;	
+	
+}
+
+.new_bar ul li a:hover{
+	color: blue;
+}
+.dropdown{
+	display: none;
+}
+.new_bar ul li:hover .dropdown{
+	background-color: black;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100px;
+	border-radius: 0px 0px 10px 10px;
+
+
+}
+.dropdown ul{
+	display: block;
+}
+
+
+.dropdown ul li a{
+	color: orange;
+	font-size: 10px;
+	position: absolute;
+	left: 5;
+	border-bottom: dashed;
+
+}
+.btext{
+
+	color: orange;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+h1{
+	color: orange;
+	font-size: 40px;
+	
+
+	
+}
+ .anc{
+	text-decoration: none;
+	background: orange;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	color: red;
+	font-weight: 900;
+	box-shadow: 2px 2px 3px 4px;
+
+}
